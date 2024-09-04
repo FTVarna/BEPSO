@@ -1,0 +1,10 @@
+# BEPSO
+<h3>Biased Eavesdropping Particles: A Novel Bio-inspired Heterogeneous Particle Swarm Optimisation Algorithm.</h3>
+
+<b>Paper Link:</b> https://ieeexplore.ieee.org/document/9660113
+
+<b>Cite as:</b><br>
+F. T. Varna and P. Husbands, "Biased Eavesdropping Particles: A Novel Bio-inspired Heterogeneous Particle Swarm Optimisation Algorithm," 2021 IEEE Symposium Series on Computational Intelligence (SSCI), Orlando, FL, USA, 2021, pp. 1-8, doi: 10.1109/SSCI50451.2021.9660113.
+
+<h1>Abstract:</h1>
+The present study proposes a new bio-inspired heterogeneous PSO (particle swarm optimisation) algorithm called BEPSO (biased eavesdropping PSO). The primary search behaviour of the BEPSO algorithm is inspired by eavesdropping behaviour observed in nature, and incorporates a cognitive bias that enables particles to control decisions on cooperation. The algorithm divides the swarm into two distinct particle groups competing to search for a resource. Particles recognise their group members as conspecifics and the other group as heterospecific. When a particle discovers a better position, a contact signal is emitted to attract surrounding conspecifics to the newly discovered position. In nature, multiple species living in the same environment commonly eavesdrop on contact calls originally unintended for them. This can help them to use less energy in searching for resources and potentially increase their fitness. Similarly, in this study, surrounding heterospecifics also eavesdrop on, and exploit, the signal calls originally intended for different conspecific particles. This signaller-recipient interaction experience builds positive or negative bias among particles over time, and particles' final cognitive bias is used as a decision mechanism to exploit signal information. The performance of the proposed algorithm was tested by conducting three distinct experiments on the CEC'17 and CEC'05 benchmark test suites at 30 and 50 dimensions. The results were compared against the results of 12 baseline metaheuristics and 12 state-of-the-art PSO variants. The proposed algorithm outperformed all 24 comparison algorithms in all experiments conducted.
