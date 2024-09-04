@@ -229,7 +229,7 @@ else
     end
 end
 
-%returns the behaviour of the particle
+%returns the exemplar
 function [exemplar]=getExemplar(interceptorN,interceptorList,X,n,i)
 if interceptorN>4
     rnd=randperm(length(interceptorList),4);
