@@ -246,7 +246,6 @@ else
         group=randperm(n,n/2);
         similarity=zeros(1,length(group));
         for ii=1:length(group)
-            %similarity(ii)=unifrnd(-5,5);
             similarity(ii)=immse(X(group(ii),:),X(i,:));
         end
         [~,dissimilarId]=max(similarity);
